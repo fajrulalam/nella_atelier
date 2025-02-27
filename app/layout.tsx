@@ -1,4 +1,4 @@
-import "../globals.css"; // Ensure this line is at the top of your layout.js or layout.tsx
+import "./globals.css"; // Ensure this line is at the top of your layout.js or layout.tsx
 
 import Navbar from "./components/Navbar";
 import { ReactNode } from "react";

@@ -3,7 +3,6 @@ import { useState } from "react";
 import HeroCarousel from "./components/HeroCarousel";
 import ProductCard from "./components/ProductCard";
 import ProductDetail from "./components/ProductDetail";
-import Layout from "./layout";
 
 const products = [
   {
@@ -248,7 +247,8 @@ export default function Page() {
   };
 
   return (
-    <Layout>
+    // Remove the Layout wrapper
+    <>
       <HeroCarousel />
       <section className="container">
         <h2>The Middle East Collection</h2>
@@ -260,7 +260,6 @@ export default function Page() {
           ))}
         </div>
       </section>
-
       {selectedProduct && (
         <div className="bottom-sheet-overlay" onClick={closeBottomSheet}>
           <div className="bottom-sheet" onClick={(e) => e.stopPropagation()}>
@@ -271,6 +270,6 @@ export default function Page() {
           </div>
         </div>
       )}
-    </Layout>
+    </>
   );
 }
