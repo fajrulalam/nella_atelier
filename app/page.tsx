@@ -3,7 +3,7 @@ import { useState } from "react";
 import HeroCarousel from "./components/HeroCarousel";
 import ProductCard from "./components/ProductCard";
 import ProductDetail from "./components/ProductDetail";
-import Layout from "./components/Layout";
+import Layout from "./layout";
 
 const products = [
   {
