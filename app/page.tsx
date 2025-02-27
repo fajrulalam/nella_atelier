@@ -269,8 +269,11 @@ export default function Page() {
         <h2>The Middle East Collection</h2>
         <div className="grid">
           {products.map((product) => (
-            <div key={product.id} onClick={() => openBottomSheet(product)}>
-              <ProductCard product={product} />
+            <div key={product.id}>
+              <ProductCard
+                product={product}
+                onClick={() => openBottomSheet(product)}
+              />
             </div>
           ))}
         </div>
