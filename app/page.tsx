@@ -4,7 +4,22 @@ import HeroCarousel from "./components/HeroCarousel";
 import ProductCard from "./components/ProductCard";
 import ProductDetail from "./components/ProductDetail";
 
-const products = [
+// Define the type for Product
+interface Product {
+  id: number;
+  name: string;
+  images: string[];
+  price: number;
+  isSoldOut: boolean;
+  valueAdded: string[];
+  color: string;
+  size: string[];
+  detailSize: { chestWidth: number; sleeveLength: number; dressLength: number };
+  sizeTolerance: string;
+  material: string;
+}
+
+const products: Product[] = [
   {
     id: 1,
     name: "Luxor Dress Blue",
@@ -233,12 +248,13 @@ const products = [
     sizeTolerance: "1-4 cm",
     material: "Silk Armani",
   },
+  // Other product data remains the same...
 ];
 
 export default function Page() {
-  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const openBottomSheet = (product: any) => {
+  const openBottomSheet = (product: Product) => {
     setSelectedProduct(product);
   };
 
@@ -247,7 +263,6 @@ export default function Page() {
   };
 
   return (
-    // Remove the Layout wrapper
     <>
       <HeroCarousel />
       <section className="container">
