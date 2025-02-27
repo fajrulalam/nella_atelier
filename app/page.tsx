@@ -193,7 +193,7 @@ const products: Product[] = [
   },
   {
     id: 10,
-    name: "Istanbul Dress Choco",
+    name: "Istanbul Dress Mint Green",
     images: [
       "/assets/istanbul dress mint green 1.jpeg",
       "/assets/istanbul dress mint green 2.jpeg",
@@ -212,7 +212,7 @@ const products: Product[] = [
   },
   {
     id: 11,
-    name: "Gyza Dress Burgundy",
+    name: "Gyza Dress Pink",
     images: [
       "/assets/gyza dress burgundy 1.jpeg",
       "/assets/gyza dress burgundy 2.jpeg",
@@ -231,7 +231,7 @@ const products: Product[] = [
   },
   {
     id: 12,
-    name: "Gyza Dress Pink",
+    name: "Gyza Dress Burgundy",
     images: [
       "/assets/gyza dress pink 1.jpeg",
       "/assets/gyza dress pink 2.jpeg",
