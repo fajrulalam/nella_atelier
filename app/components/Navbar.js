@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="navbar-logo">
           <Link href="/">
             <img
-              src="./assets/logo_nella.png" // Placeholder for the logo
+              src="./assets/logo_nellA.png" // Placeholder for the logo
               alt="Logo"
               className="logo-image"
             />
