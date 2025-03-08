@@ -221,7 +221,7 @@ const products: Product[] = [
       "/assets/gyza dress burgundy 5.jpeg",
     ],
     price: 799000,
-    isSoldOut: false,
+    isSoldOut: true,
     valueAdded: ["Includes hijab"],
     color: "Burgundy",
     size: ["All size"],

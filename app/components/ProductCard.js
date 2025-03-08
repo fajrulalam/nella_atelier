@@ -127,6 +127,13 @@ const ProductCard = ({ product, onClick }) => {
         >
           &#8250;
         </div>
+
+        {/* Sold Out Overlay */}
+        {product.isSoldOut && (
+          <div className="sold-out-overlay">
+            <div className="sold-out-text"></div>
+          </div>
+        )}
       </div>
 
       <div className="product-details">
