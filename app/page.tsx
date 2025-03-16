@@ -183,7 +183,7 @@ const products: Product[] = [
       "/assets/istanbul dress choco 5.jpeg",
     ],
     price: 799000,
-    isSoldOut: false,
+    isSoldOut: true,
     valueAdded: ["Includes hijab"],
     color: "Chocolate",
     size: ["All size"],
