@@ -202,7 +202,7 @@ const products: Product[] = [
       "/assets/istanbul dress mint green 5.jpeg",
     ],
     price: 799000,
-    isSoldOut: false,
+    isSoldOut: true,
     valueAdded: ["Includes hijab"],
     color: "Mint Green",
     size: ["All size"],
