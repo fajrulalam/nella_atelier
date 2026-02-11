@@ -40,7 +40,7 @@ const products: Product[] = [
     size: ["All size"],
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },
     sizeTolerance: "1-4 cm",
-    material: "Silk Armani",
+    material: "Kain Naeem",
   },
   {
     id: 14,
@@ -59,7 +59,7 @@ const products: Product[] = [
     size: ["All size"],
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },
     sizeTolerance: "1-4 cm",
-    material: "Silk Armani",
+    material: "Kain Santiago",
   },
   {
     id: 1,
