@@ -10,6 +10,7 @@ interface Product {
   name: string;
   images: string[];
   price: number;
+  isNew: boolean;
   isSoldOut: boolean;
   valueAdded: string[];
   color: string;
@@ -31,6 +32,7 @@ const products: Product[] = [
       "/assets/naungan kain naeem 5.jpeg",
       "/assets/naungan kain naeem 6.jpeg",
     ],
+    isNew: true,
     price: 799000,
     isSoldOut: false,
     valueAdded: ["Includes hijab"],
@@ -49,6 +51,7 @@ const products: Product[] = [
       "/assets/berteduh kain Santiago 3.jpeg",
       "/assets/berteduh kain Santiago 4.jpeg",
     ],
+    isNew: true,
     price: 599000,
     isSoldOut: false,
     valueAdded: ["Includes hijab"],
@@ -68,6 +71,7 @@ const products: Product[] = [
       "/assets/luxor dress blue 4.jpeg",
       "/assets/luxor dress blue 5.jpeg",
     ],
+    isNew: false,
     price: 599000,
     isSoldOut: true,
     valueAdded: ["Includes hijab"],
@@ -89,6 +93,8 @@ const products: Product[] = [
     ],
     price: 599000,
     isSoldOut: true,
+    isNew: false,
+
     valueAdded: ["Includes hijab"],
     color: "Purple",
     size: ["All size"],
@@ -108,6 +114,8 @@ const products: Product[] = [
     ],
     price: 599000,
     isSoldOut: true,
+    isNew: false,
+
     valueAdded: ["Includes hijab"],
     color: "Blue",
     size: ["All size"],
@@ -127,6 +135,8 @@ const products: Product[] = [
     ],
     price: 599000,
     isSoldOut: true,
+    isNew: false,
+
     valueAdded: ["Includes hijab"],
     color: "Pink",
     size: ["All size"],
@@ -146,6 +156,8 @@ const products: Product[] = [
     ],
     price: 699000,
     isSoldOut: false,
+    isNew: false,
+
     valueAdded: ["Includes hijab"],
     color: "Grey",
     size: ["All size"],
@@ -165,6 +177,8 @@ const products: Product[] = [
     ],
     price: 699000,
     isSoldOut: true,
+    isNew: false,
+
     valueAdded: ["Includes hijab"],
     color: "Chocolate",
     size: ["All size"],
@@ -187,6 +201,8 @@ const products: Product[] = [
     valueAdded: ["Includes hijab"],
     color: "Chocolate",
     size: ["All size"],
+    isNew: false,
+
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },
     sizeTolerance: "1-4 cm",
     material: "Silk Armani",
@@ -205,6 +221,8 @@ const products: Product[] = [
     isSoldOut: false,
     valueAdded: ["Includes hijab"],
     color: "Black",
+    isNew: false,
+
     size: ["All size"],
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },
     sizeTolerance: "1-4 cm",
@@ -223,6 +241,8 @@ const products: Product[] = [
     price: 799000,
     isSoldOut: true,
     valueAdded: ["Includes hijab"],
+    isNew: false,
+
     color: "Chocolate",
     size: ["All size"],
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },
@@ -241,6 +261,8 @@ const products: Product[] = [
     ],
     price: 799000,
     isSoldOut: true,
+    isNew: false,
+
     valueAdded: ["Includes hijab"],
     color: "Mint Green",
     size: ["All size"],
@@ -262,6 +284,8 @@ const products: Product[] = [
     isSoldOut: true,
     valueAdded: ["Includes hijab"],
     color: "Burgundy",
+    isNew: false,
+
     size: ["All size"],
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },
     sizeTolerance: "1-4 cm",
@@ -280,6 +304,8 @@ const products: Product[] = [
     price: 799000,
     isSoldOut: true,
     valueAdded: ["Includes hijab"],
+    isNew: false,
+
     color: "Pink",
     size: ["All size"],
     detailSize: { chestWidth: 108, sleeveLength: 57, dressLength: 140 },

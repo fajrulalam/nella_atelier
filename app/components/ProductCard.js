@@ -134,6 +134,11 @@ const ProductCard = ({ product, onClick }) => {
             <div className="sold-out-text"></div>
           </div>
         )}
+
+        {/* New Badge */}
+        {product.isNew && (
+          <span className="new-badge">New!</span>
+        )}
       </div>
 
       <div className="product-details">
